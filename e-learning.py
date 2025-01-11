@@ -8,8 +8,8 @@ def create_connection():
     try:
         connection = mysql.connector.connect(
             host='localhost',
-            user='root',  # Correct username (replace 'root' with your MySQL username)
-            password='root',  # Replace with your MySQL password
+            user='root',  # MySQL username
+            password='root',  # MySQL password
             database='E_Learning'
         )
         if connection.is_connected():
